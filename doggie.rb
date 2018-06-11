@@ -12,6 +12,13 @@ class Dog
   def breed
     @this_dog_breed
   end
+  
+  def woof=(dog_woof)
+    @this_dog_woof = dog_woof
+  end
+  def woof
+    @this_dog_woof
+  end
 end
 
 fido = Dog.new
