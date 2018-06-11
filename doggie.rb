@@ -31,4 +31,4 @@ puts "The dog is a #{beagle.name}."
 
 bark = Dog.new
 bark.name = "Bark!"
-puts "#{bark.name}."
+puts "#{bark.name}"
