@@ -19,6 +19,6 @@ fido = Dog.new
 fido.name = "Fido"
 puts "The dog's name is #{fido.name}."
 
-fido = Dog.new
-fido.name = "Fido"
-puts "The dog's name is #{fido.name}."
+beagle = Dog.new
+beagle.name = "beagle"
+puts "The dog is a #{beagle.name}."
